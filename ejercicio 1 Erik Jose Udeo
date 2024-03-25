@@ -1,0 +1,15 @@
+using namespace std;
+
+#include <iostream>
+
+int main() {
+	int altura, base, rst;
+	cout << "ingrese altura "  ;
+	cin >> altura;
+	cout << "ingrese base "  ;
+	cin >> base;
+	
+	rst = altura + base ;
+	cout << "el resultado es "<< rst / 2 << endl;
+	return 0;
+    }
